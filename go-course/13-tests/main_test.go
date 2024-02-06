@@ -19,3 +19,4 @@ func TestAddFail(t *testing.T) {
 		t.Error("Result of 42 + 10 must be 52")
 	}
 }
+ 

@@ -13,11 +13,11 @@ func task(name string) {
 }
 
 func main() {
-	go task("goroutine 1")
-	go task("goroutine 2")
-	go task("goroutine 3")
-	go task("goroutine 4")
-	go task("goroutine 5")
+	go task("go time 1")
+	go task("go time 2")
+	go task("go time 3")
+	go task("go time 4")
+	go task("go time 5")
 
 	task("main")
 }
