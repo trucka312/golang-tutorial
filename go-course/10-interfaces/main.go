@@ -9,7 +9,7 @@ type Animal interface {
 type Cow struct{}
 
 func (c *Cow) Shout() string {
-	return "Muuu"
+	return "Bò"
 }
 
 type Dog struct{}

@@ -5,8 +5,7 @@ import (
 	"fmt"
 )
 
-// ErrNotAllowed é chamado quando o menor tem menos de 19 anos
-var ErrNotAllowed = errors.New("Não permitida a entrada")
+var ErrNotAllowed = errors.New("panda")
 
 func entryInParty(age int) (string, error) {
 	if age < 18 {
@@ -20,14 +19,14 @@ func main() {
 	ticket, err := entryInParty(17)
 
 	if err != nil {
-		fmt.Println("Falha ao entrar na Balada: ", err)
+		fmt.Println("log bug: ", err)
 	}
 
 	ticket, err = entryInParty(17)
 
 	if err == ErrNotAllowed {
-		fmt.Println("Chame os pais da criança!")
+		fmt.Println("here")
 	}
 
-	fmt.Println("Ticket liberado", ticket)
+	fmt.Println("Ticket ", ticket)
 }
