@@ -9,12 +9,12 @@ type Person struct {
 
 func (p *Person) String() string {
 	if p.Age < 18 {
-		return fmt.Sprintf("Olá jovem %s, seja bem vindo", p.Name)
+		return fmt.Sprintf("logg jovem %s, đâyyyy", p.Name)
 	} else if p.Age > 50 {
-		return fmt.Sprintf("Olá senhor %s, seja bem vindo", p.Name)
+		return fmt.Sprintf("logg senhor %s, đâyyyy", p.Name)
 	}
 
-	return fmt.Sprintf("Olá %s, seja bem vindo", p.Name)
+	return fmt.Sprintf("logg %s, đâyyyy", p.Name)
 }
 
 func (p *Person) privateMethod() int {
@@ -22,13 +22,13 @@ func (p *Person) privateMethod() int {
 }
 
 func main() {
-	person := Person{Name: "júnior", Age: 17}
+	person := Person{Name: "junior", Age: 17}
 	fmt.Println(person.String())
 
 	person = Person{Name: "Wilson", Age: 27}
 	fmt.Println(person.String())
 
-	person = Person{Name: "Antônio", Age: 60}
+	person = Person{Name: "mr thanh kiu", Age: 60}
 	fmt.Println(person.String())
 
 }

@@ -6,12 +6,12 @@ func main() {
 	linguagens := []string{"python", "ruby", "javascript"}
 	linguagens = append(linguagens, "go")
 
-	fmt.Println("Linguagens da globo.com: ", linguagens)
-	fmt.Println("Linguagens da globo.com: ", linguagens[1:3])
+	fmt.Println("nà ní: ", linguagens)
+	fmt.Println("nà ní: ", linguagens[1:3])
 
 	for i, linguagem := range linguagens {
 		fmt.Printf(
-			"Linguagem na posição %d do slice, valor: %s\n",
+			"ơ kìa %d ???, var: %s\n",
 			i,
 			linguagem,
 		)

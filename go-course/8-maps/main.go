@@ -11,9 +11,9 @@ func main() {
 	people["junior"] = 10
 
 	for name, age := range people {
-		fmt.Printf("Chave %s do mapa valor: %d\n", name, age)
+		fmt.Printf(" %s hẻeeee: %d\n", name, age)
 	}
 
 	delete(people, "wilson")
-	fmt.Printf("Posição não alocada: %d\n", people["wilson"])
+	fmt.Printf("loggg: %d\n", people["wilson"])
 }
