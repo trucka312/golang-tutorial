@@ -8,7 +8,7 @@ import (
 
 type MultiWorker struct {
 	wg sync.WaitGroup
-}
+} 
 
 func (w *MultiWorker) Run() {
 	for i := 0; i < 100; i++ {

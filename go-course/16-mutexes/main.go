@@ -25,6 +25,6 @@ func main() {
 	for i := 0; i < 100; i++ {
 		go s.Set("blah", strconv.Itoa(i))
 		go fmt.Println(s.Get("blah"))
-	}
+	} 
 
 }
