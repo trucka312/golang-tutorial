@@ -1,9 +1,3 @@
-// sha256.go
-// description: The sha256 cryptographic hash function as defined in the RFC6234 standard.
-// author: [Paul Leydier] (https://github.com/paul-leydier)
-// ref: https://datatracker.ietf.org/doc/html/rfc6234
-// ref: https://en.wikipedia.org/wiki/SHA-2
-// see sha256_test.go
 
 package sha256
 
