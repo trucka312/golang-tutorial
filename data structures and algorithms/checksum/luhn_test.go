@@ -4,7 +4,6 @@ package checksum_test
 
 import (
 	"testing"
-
 	"github.com/TheAlgorithms/Go/checksum"
 )
 
