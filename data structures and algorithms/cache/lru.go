@@ -29,8 +29,6 @@ func NewLRU(capacity int) LRU {
 	}
 }
 
-// Get value from lru
-// if not found, return nil
 func (c *LRU) Get(key string) any {
 	v, ok := c.storage[key]
 	if ok {
