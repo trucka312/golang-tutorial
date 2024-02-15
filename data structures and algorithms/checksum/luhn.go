@@ -1,5 +1,4 @@
 
-
 // Package checksum describes algorithms for finding various checksums
 package checksum
 

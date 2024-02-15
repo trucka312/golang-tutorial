@@ -1,7 +1,3 @@
-// huffmancoding_test.go
-// description: Tests the compression, encoding and decoding algorithms of huffmancoding.go.
-// author(s) [pedromsrocha](https://github.com/pedromsrocha)
-// see huffmancoding.go
 
 package compression_test
 
